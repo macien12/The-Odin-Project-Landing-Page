@@ -1,0 +1,10 @@
+.body {
+    height: 100vh;
+    display: flex;
+    flex: 1;
+}
+
+img {
+    height: 50px;
+    width: auto;
+}
