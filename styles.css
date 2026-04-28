@@ -90,3 +90,122 @@ h1 {
 }
 
 
+.main {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.main h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    
+}
+
+
+.gallery {
+    min-width: 200px;
+}
+
+.photorow {
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    
+}
+
+.text {
+    color: #535353;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    max-width: ;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.quote-container {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.author {
+    margin-top: 25px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #1F2937;
+    align-self: flex-end;
+}
+
+
+.footer-container {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 40px 80px;
+}
+
+.footer-button {
+    flex-shrink: 0;
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+.footer-header {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.footer-paragraph {
+    margin: 0;
+}
+
+.watermark {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+}
